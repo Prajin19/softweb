@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .banner {
+            width: 100%;
+            height: 95vh;
+            background-image: linear-gradient(
+                rgba(255, 255, 255, 0.2),
+            rgba(241, 165, 79, 0.75)
+            ),
+            url(background.jpg);
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(4px);
+        }
+        .navbar {
+            width: 95%;
+            margin: auto;
+            padding: 25px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            color: #b2286d;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        span {
+            color: #b2286d;
+        }
+        form {
+            width: 200px;
+            height: 40px;
+            display: flex;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1px 1px;
+            font-size: 15px;
+            border-radius: 10px;
+            backdrop-filter: blur(4px) saturate(180%);
+        }
+        form input {
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 12px 20px;
+            font-size: 15px;
+            color: white;
+        }
+        ::placeholder {
+            color: white;
+        }
+        form button {
+            border: 0;
+            outline: none;
+            padding: 5px 20px;
+            color: white;
+            border-radius: 10px;
+            background: #7959B1;
+            cursor: pointer;
+        }
+        
+        .navbar li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar li a {
+            text-decoration: none;
+            color: rgb(31, 12, 202);
+            text-transform: uppercase;
+        }
+        .text h3 {
+        color: rgba(0, 0, 0, 0.677);
+        font-weight: 800;
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-family: 'Georgia';
+        }
+        .container {
+            background: transparent;
+            padding: 30px 10%;
+            padding-bottom: 100px;
+        }
+        .container .box-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 100px;
+        }
+        .container .box-container .box {
+            color: white;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            background-color:  rgba(45, 15, 196, 0.525);
+            padding: 40px 70px;
+            text-align: center;
+        }
+        .container .box-container .box img {
+            height: 90px;
+            width: 80px;
+        }
+        .container .box-container .box h3 {
+            color: #ffffff;
+            font-family: 'Times New Roman',;
+            font-size: large;
+            padding: 20px 0;
+        }
+        .container .box-container .box p {
+            color: white;
+            font-size: small;
+            line-height: 1.5;
+        }
+        footer {
+            border: 1px;
+            padding: 10px;
+            transition: 0.5s;
+            background: #e2c20b;
+            color: #102fdf;
+            box-shadow: 0 0 20px #7959B1;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <br />
+    <div class="navbar">
+        <h1 class="logo"><span>SG </span>Software Solutions</h1>
+        <ul>
+            <li><a href="main.html"> Home </a></li>
+            <li><a href="pro.html" class="bg-product"> Products </a></li>
+            <li><a href="inc.html"> People </a></li>
+            <li><a href="conus.html"> Contact </a></li>
+        </ul>
+    </div>
+    <hr size="4" color="black" width="50%">
+    <div class="text">
+        <h3>
+          Companies we have created web page for
+        </h3>
+        <br />
+
+    </div>
+    <div class="container">
+        <div class="box-container">
+            <div class="box">
+                <img src="d1.jpg" alt="Violin">
+                <h3>Dream 11</h3>
+            </div>
+            <div class="box">
+                <img src="d2.jpg" alt="Harp">
+                <h3>My 11 Circle</h3>
+            </div>
+            <div class="box">
+                <img src="d3.jpg" alt="Kylophone">
+                <h3>B.C.C.I</h3>
+            </div>
+            <div class="box">
+                <img src="d4.jpg" alt="Drums">
+                <h3>STAR Network</h3>
+            </div>
+            <div class="box">
+                <img src="d5.jpg" align="center" alt="DJ set">
+                <h3>SONY Network</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <center> &#169 Designed and Developed by <b>Prajin S  (212223230151)</b></center>
+</footer>
+</body>
+</html>

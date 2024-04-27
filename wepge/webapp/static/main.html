@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .banner {
+        width: 100%;
+        height: 95vh;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.2),
+            rgba(241, 165, 79, 0.75)
+          ),
+          url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(4px);
+      }
+      .navbar {
+        width: 95%;
+        margin: auto;
+        padding: 25px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        color: #b2286d;
+        font-size: 50px;
+        font-weight: 700;
+      }
+      span {
+        color: #b2286d;
+      }
+      form {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1px 1px;
+        font-size: 15px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px) saturate(180%);
+      }
+      form input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 12px 20px;
+        font-size: 15px;
+        color: white;
+      }
+      ::placeholder {
+        color: white;
+      }
+      form button {
+        border: 0;
+        outline: none;
+        padding: 5px 20px;
+        color: white;
+        border-radius: 10px;
+        background: #7959B1;
+        cursor: pointer;
+      }
+      
+      .navbar li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: rgb(31, 12, 202);
+        text-transform: uppercase;
+      }
+      
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text h3 {
+        color: rgba(0, 0, 0, 0.677);
+        font-weight: 800;
+        font-size: 60px;
+        letter-spacing: 4px;
+        font-family: 'Georgia';
+      }
+      .pa{
+            width:500px;
+            height: 250px;
+            justify-content:center;
+            justify-items: center;
+            border-radius: 30px;
+            background-color: rgba(45, 15, 196, 0.525);
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+      footer {
+        border: 1px;
+        padding: 10px;
+
+        transition: 0.5s;
+        background: #e2c20b;
+        color: #102fdf;
+        box-shadow: 0 0 20px #7959B1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <br />
+      <div class="navbar">
+        <h1 class="logo"><span>SG </span>Software Solutions</h1>
+        <ul>
+          <li><a href="main.html"> Home </a></li>
+          <li><a href="pro.html"> Products </a></li>
+          <li><a href="inc.html"> People </a></li>
+          <li><a href="conus.html"> Contact </a></li>
+        </ul>
+      </div>
+      <hr size="4" color="black" width="50%">
+      <div class="content">
+        <div class="text">
+          <h3>
+            Find the best web pages for your company
+          </h3>
+          <br />
+
+          <br />
+        </div>
+        <div class="pa">
+            <h2 align="center">Login</h3>
+            <br>
+            <div>
+            <h4>Enter Username</h4><input type="text"><br><br><br>
+            <h4>Password</h4>
+            <input type="text"><br><br>
+            </div>
+            <div>
+            <button >Submit</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <center> &#169 Designed and Developed by <b>Prajin S  (212223230151)</b></center>
+    </footer>
+  </body>
+</html>
